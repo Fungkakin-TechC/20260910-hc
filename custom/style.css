@@ -1,0 +1,137 @@
+@charset "utf-8";
+@import "https://unpkg.com/ress/dist/ress.min.css";
+
+/* all page  */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #333;
+    background-color: #C5FFE1;
+    min-width: 1000px;
+}
+
+.inner {
+    width: 1000px;
+    margin: auto;
+
+}
+
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+    object-fit: cover;
+}
+
+header {
+    color: #fff;
+    height: 50vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url("img/div.main-visual.png") center / cover no-repeat;
+}
+
+header h1 {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 800;
+    color: #5FDDC6;
+    -webkit-text-stroke: 6px black;
+    paint-order: stroke fill;
+}
+
+.catch-copy {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 700;
+    /* slightly lighter than the 800/900 title */
+    color: FFFFFF;
+    /* teal/cyan fill */
+    -webkit-text-stroke: 2px #17CBDF;
+    /* thinner stroke than the title */
+    paint-order: stroke fill;
+    font-size: 24px;
+    /* roughly half the title size */
+}
+
+/* section */
+section {
+    width: 100%;
+    padding: 80px 0;
+}
+
+section h2 {
+    margin-bottom: 1em;
+}
+
+section p {
+    line-height: 1.8;
+}
+
+/* section first */
+
+#first {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    background: url("img/img left.png") left center no-repeat;
+    background-color: #C5FFE1;
+}
+#first h2{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 800;
+    color: #FF7700;
+    -webkit-text-stroke: 2px black;
+    paint-order: stroke fill;
+}
+#first .inner {
+    width: 500px;
+    margin-right: 0;
+    margin-left: auto;
+}
+
+#first p {
+    margin: 1em 0;
+}
+
+/* section sceond and third share  */
+#second .inner,
+#third .inner {
+    text-align: center;
+}
+
+#second p,
+#third p {
+    margin-bottom: 3em;
+}
+
+/* section second */
+#second {
+    background-color: #3EC6EB;
+    padding-bottom: 0;
+
+}
+#second h2{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 800;
+    color: #020202;
+    -webkit-text-stroke: 2px #fff;
+    paint-order: stroke fill;
+}
+
+
+/* section third*/
+#third h2{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 800;
+    color: #B24A00;
+    -webkit-text-stroke: 2px #A8AAAE;
+    paint-order: stroke fill;
+}
+/* footer */
+footer {
+    background: #779CFF;
+    text-align: center;
+    padding: 20px 0;
+}

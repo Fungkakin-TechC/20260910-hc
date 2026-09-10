@@ -31,7 +31,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: url("img/div.main-visual.png") center / cover no-repeat;
+    background: url("./img/div.main-visual.png") center / cover no-repeat;
 }
 
 header h1 {
@@ -75,7 +75,7 @@ section p {
     width: 1000px;
     margin: auto;
     display: flex;
-    background: url("img/img left.png") left center no-repeat;
+    background: url("./img/img left.png") left center no-repeat;
     background-color: #C5FFE1;
 }
 #first h2{
